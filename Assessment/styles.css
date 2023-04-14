@@ -1,0 +1,48 @@
+/* custom colours */
+:root {
+  --ion-color-maincolour: #ab3030;
+  --ion-color-maincolour-contrast: #ffffff;
+  --ion-color-maincolour-shade: #941c1c;
+  --ion-color-maincolour-tint: #da6464;
+}
+
+.ion-color-maincolour {
+  --ion-color-base: var(--ion-color-maincolour);
+  --ion-color-contrast: var(--ion-color-maincolour-contrast);
+  --ion-color-shade: var(--ion-color-maincolour-shade);
+  --ion-color-tint: var(--ion-color-maincolour-tint);
+}
+
+ion-app {
+  --ion-background-color: rgb(42, 42, 42);
+  --ion-text-color: white;
+  --ion-overlay-background-color: var(--ion-color-maincolour);
+}
+
+ion-tab-bar {
+  --ion-tab-bar-color-selected: var(--ion-color-maincolour);
+  --ion-tab-bar-background: #212121;
+
+}
+
+ion-card {
+  --ion-background-color: rgb(110, 110, 110);
+}
+
+/* make dictionary defintions and text go onto next line so it can all be read */
+#fix-text {
+  height: auto;
+  overflow-y: auto;
+  white-space: pre-line;
+}
+
+#search-input {
+  --ion-input-background: #212121;
+}
+
+/* make the links white before and after they have been clicked on */
+a:link, a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
