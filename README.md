@@ -15,3 +15,5 @@ References:
 - W3Schools - simple CSS code examples
 - Ionic Framework - ionic code and examples
 - Class Code - examples and existing code I had written in class
+- Free Dictionary API
+- News API
